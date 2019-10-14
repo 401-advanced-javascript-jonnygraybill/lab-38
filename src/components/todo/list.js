@@ -7,7 +7,6 @@ const TodoList = (props) => {
 
   const [page, setPage] = useState(0);
   const context = useContext(SettingsContext);
-
   const start = context.maxVisible * page;
   const end = start + context.maxVisible;
   const list = props.list ? props.list.slice(start, end) : [];

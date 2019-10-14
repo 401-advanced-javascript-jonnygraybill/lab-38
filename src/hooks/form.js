@@ -3,7 +3,6 @@ import { useState } from 'react';
 const useForm = (callback) => {
 
   const [values, setValues] = useState({});
-
   const handleSubmit = (event) => {
     if (event) event.preventDefault();
     callback(values);
@@ -18,7 +17,7 @@ const useForm = (callback) => {
     handleChange,
     handleSubmit,
     values,
-  }
+  };
 };
 
 export default useForm;
