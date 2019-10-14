@@ -1,8 +1,7 @@
-# LAB - 37
+# LAB - 38
 
 ### Authors: Jonny 
 #### Mob Programmed Portions of Lab/Practice
-* Worked with Jeremy and whole class on functionality
 
 ### Links and Resources
 * [submission PR]() 
@@ -10,10 +9,10 @@
 * [travis]()
 
 ### UML
-![UML: Lab 37](./assets/lab-37-uml.jpg)
+![UML: Lab 38](./assets/lab-38-uml.jpg)
 
 ### Components
-#### createServiceWorker.js
+#### auth
 #### if
 #### modal
 #### todo
@@ -22,12 +21,18 @@
 #### settings.js
 
 ### Hooks
-#### form.js - switched to json schema instead
+#### form.js
+#### q.js
+
+### Lib
+#### api.js
 
 ### State/Store
+#### Middleware
+  * thunk.js
 #### index.js
-#### settings.store.js
-#### todo.store.js
+#### actions.js
+#### reducers.js
 
 ## Running the App/Available Scripts
 

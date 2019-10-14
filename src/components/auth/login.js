@@ -42,7 +42,7 @@ class Login extends React.Component {
         <If condition={!this.context.loggedIn}>
           <form onSubmit={this.handleSubmit}>
             <input
-              placeholder="UserName"
+              placeholder="Username"
               name="username"
               onChange={this.handleChange}
             />

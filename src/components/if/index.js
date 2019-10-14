@@ -11,17 +11,5 @@ export const If = props =>
 
 export const Then = props => render(props.condition, props.children);
 export const Else = props => render(!props.condition, props.children);
-
-/*
-<When condition={true}>
-  <h2>When Works</h2>
-</When>
-*/
 export const When = props => render(props.condition, props.children);
-
-/*
-<Unless condition={administrator}>
-  Pay more $$ and we will make you an admin
-</Unless>
-*/
 export const Unless = props => render(!props.condition, props.children);
